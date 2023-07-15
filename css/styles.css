@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   font-size: 16px;
+  color: #434455;
 }
 
 :root {
@@ -23,29 +24,44 @@ ul {
 
 /*          HEADER          */
 
-.header-logo {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 2.625;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--navyblue);
+.list {
+  list-style: none;
 }
 
-.header-logo-span {
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--iris);
 }
 
-.header-menu {
+.header-logo-span {
+  color: var(--navyblue);
+}
+
+.link {
+  text-decoration: none;
+}
+
+header-item-link {
   color: var(--navyblue);
   font-weight: 500;
+  font-size: 16px
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.header-item-link:active {
+.header-item-link:active,
+.header-item-link:hover,
+.header-item-link:focus {
   color: var(--ocean);
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .header-address-link {
@@ -53,6 +69,11 @@ ul {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404bbf;
 }
 
 /*          MAIN - HERO         */
@@ -65,20 +86,23 @@ ul {
   color: var(--white);
   text-align: center;
   font-size: 56px;
-  line-height: 1.0714;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
 .hero-button {
   background-color: var(--iris);
   color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.hero .hero-button:hover {
+.hero .hero-button:hover,
+.hero .hero-button:focus {
   background-color: var(--ocean);
 }
 
@@ -104,7 +128,7 @@ ul {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -119,7 +143,7 @@ ul {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -151,17 +175,17 @@ ul {
 }
 
 .footer-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 2.625;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud);
+  color: var(--iris);
 }
 
 .footer-logo-span {
-  color: var(--iris);
+  color: var(--cloud);;
 }
 
 .footer-text {
