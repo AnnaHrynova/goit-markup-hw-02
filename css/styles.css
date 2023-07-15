@@ -57,7 +57,7 @@ header-item-link {
 .header-item-link:active,
 .header-item-link:hover,
 .header-item-link:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
 
 .header-address {
