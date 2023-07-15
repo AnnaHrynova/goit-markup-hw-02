@@ -47,7 +47,7 @@ ul {
 }
 
 
-header-item-link {
+.header-item-link {
   color: var(--navyblue);
   font-weight: 500;
   font-size: 16px
