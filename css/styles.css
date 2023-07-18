@@ -49,7 +49,7 @@ ul {
 .header-item-link {
   color: var(--navyblue);
   font-weight: 500;
-  font-size: 16px
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -61,7 +61,7 @@ ul {
 }
 
 .header-address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .header-address-link {
@@ -73,7 +73,7 @@ ul {
 
 .header-address-link:hover,
 .header-address-link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 /*          MAIN - HERO         */
@@ -185,7 +185,7 @@ ul {
 }
 
 .footer-logo-span {
-  color: var(--cloud);;
+  color: var(--cloud);
 }
 
 .footer-text {
